@@ -1,0 +1,13 @@
+{
+  "name": "stremio-hebrew-subtitles",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260523.1",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.94.0"
+  }
+}

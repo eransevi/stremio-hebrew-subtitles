@@ -1,0 +1,33 @@
+{
+	"name": "stremio-hebrew-subtitles",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-01-01",
+	"kv_namespaces": [
+		{
+			"binding": "SUB_CACHE",
+			"id": "912673766f4b483891278cddba7a9b1e"
+		}
+	],
+
+	"ai": {
+		"binding": "AI"
+	},
+	"observability": {
+		"enabled": false,
+		"head_sampling_rate": 1,
+		"logs": {
+			"enabled": true,
+			"head_sampling_rate": 1,
+			"persist": true,
+			"invocation_logs": true
+		},
+		"traces": {
+			"enabled": false,
+			"persist": true,
+			"head_sampling_rate": 1
+		}
+	},
+	"vars": {
+		"AI_MODEL": "@cf/meta/m2m100-1.2b"
+	}
+}
